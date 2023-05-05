@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/calculator-remember/static/css/main.a3e3af1a.css",
+    "main.js": "/calculator-remember/static/js/main.d536d96e.js",
+    "static/js/787.cd018916.chunk.js": "/calculator-remember/static/js/787.cd018916.chunk.js",
+    "static/media/walutabackground.jpg": "/calculator-remember/static/media/walutabackground.2513c57756d87e6bd702.jpg",
+    "index.html": "/calculator-remember/index.html",
+    "main.a3e3af1a.css.map": "/calculator-remember/static/css/main.a3e3af1a.css.map",
+    "main.d536d96e.js.map": "/calculator-remember/static/js/main.d536d96e.js.map",
+    "787.cd018916.chunk.js.map": "/calculator-remember/static/js/787.cd018916.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3e3af1a.css",
+    "static/js/main.d536d96e.js"
+  ]
+}
