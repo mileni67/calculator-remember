@@ -1,32 +1,14 @@
-import { useState, useEffect } from "react";
 import { StyledClock } from "./styled";
+import { useCurrenDate } from "./useCurrentDate";
 
 export const Clock = () => {
-    const [date, setDate] = useState(new Date());
-
-    useEffect(() => {
-        const intervalId = setInterval(() => {
-            setDate(new Date());
-        }, 1000)
-
-        return () => {
-            clearInterval(intervalId);
-        };
-
-    }, []);
-
+    const {date, formatedData} = useCurrenDate();
     return (
         <StyledClock>
-            Dziasiaj jest
+            Dzisiaj jest
             {" "}
-            {date.toLocaleString(undefined, {
-                weekday: "long",
-                hour: "2-digit",
-                minute: "2-digit",
-                second: "2-digit",
-                day: "numeric",
-                month: "long"
-            })}
+            {formatedData(date)}
         </StyledClock>
-    )
-}
+    );
+};
+export default Clock;
