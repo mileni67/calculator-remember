@@ -6,7 +6,7 @@ export const StyledForm = styled.form`
 `;
 
 export const StyledHeader = styled.header`
-    color: #300d06;
+    color: ${({theme}) => theme.color.rose};
     text-align: center;
     font-size: 25px ;
 `;
@@ -19,7 +19,7 @@ export const LabelText = styled.span`
 `;
 
 export const Field = styled.input`
-    border: 1px solid black;
+    border: 1px solid ${({ theme }) => theme.color.black};
     width: 100%;
     padding: 10px;
     max-width: 400px;
@@ -30,12 +30,12 @@ export const StyledButton = styled.button`
     background-color: rgb(148, 146, 146);
     border-radius: 5px;
     margin: auto;
-    width: 100%;background-color: rgb(148, 146, 146);
+    width: 100%;
     border-radius: 5px;
     margin: auto;
     width: 100%;
 
     &:hover {
-    background-color: rgb(136, 112, 112);
+        filter: brightness(110%);
     }
 `;

@@ -1,7 +1,8 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { currencies } from "./currencies";
 import Form from "./Form";
-import {Clock} from "./Clock";
+import { Clock } from "./Clock";
+import { Wrapper } from "./styled";
 
 function App() {
     const [result, setResult] = useState();
@@ -17,20 +18,20 @@ function App() {
             currency,
 
         });
-    
+
     }
 
     return (
-        <div className="app">
-            <Clock/>
-            <Form 
-            result={result}
-            calculateResult={calculateResult}
+        <Wrapper>
+            <Clock />
+            <Form
+                result={result}
+                calculateResult={calculateResult}
             />
-        </div>
+        </Wrapper>
     );
 
-  
+
 }
 
 export default App;
