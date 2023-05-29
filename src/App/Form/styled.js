@@ -6,7 +6,7 @@ export const StyledForm = styled.form`
 `;
 
 export const StyledHeader = styled.header`
-    color: ${({theme}) => theme.color.rose};
+    color: ${({ theme }) => theme.color.rose};
     text-align: center;
     font-size: 25px ;
 `;
@@ -38,4 +38,12 @@ export const StyledButton = styled.button`
     &:hover {
         filter: brightness(110%);
     }
+`;
+
+export const Loading = styled.p`
+    color: ${({ theme }) => theme.color.teal};
+`;
+
+export const Failure = styled.p`
+    color: ${({ theme }) => theme.color.crimson};
 `;
