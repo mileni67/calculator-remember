@@ -4,6 +4,7 @@ export const theme =    {
         teal: "teal",
         black: "black",
         rose: "#300d06",
-        green: "#8ee08e"
+        green: "#8ee08e",
+        crimson: "#db143c"
     }
 }
