@@ -34,7 +34,7 @@ export const Form = () => {
             {ratesData.state === "loading"
                 ? (
                     <Loading>
-                        Sekundka... <br /> Laduje kursy walut Europejskiego Banku Centralnego
+                        Sekundka... <br /> Laduje kursy walut Europejskiego Banku Centralnego 😊
                     </Loading>
                 ) : (
                     ratesData.state === "error" ? (
