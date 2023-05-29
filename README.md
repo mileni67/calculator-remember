@@ -9,6 +9,7 @@ This app will help you calculate currency
 
 ## Updates
 - Time and date online
+- Added online currency updates collected from european international bank
 
 ## Used Technologies
 - HTML
@@ -16,6 +17,7 @@ This app will help you calculate currency
 - JavaSctipt
 - Git
 - React
+- Styled components
 
 # Getting Started with Create React App
 
